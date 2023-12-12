@@ -1,0 +1,2468 @@
+[
+  {
+    "id": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg/400px-2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg",
+    "title": "Mazda MX-5",
+    "class": "Sports car Roadster",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg",
+    "title": "Volkswagen Kübelwagen",
+    "class": "Military vehicle",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg/400px-2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg",
+    "title": "Porsche Cayenne",
+    "class": "Mid-size luxury crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG",
+    "title": "Vauxhall Chevette",
+    "class": "Supermini",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg",
+    "title": "Dymaxion car",
+    "class": "Concept car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_Crown_Victoria_LX.jpg/400px-Ford_Crown_Victoria_LX.jpg",
+    "title": "Ford Crown Victoria",
+    "class": "Full-size Ford",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Plymouth_Superbird.jpg/400px-Plymouth_Superbird.jpg",
+    "title": "Plymouth Superbird",
+    "class": "Muscle car(today) and Race car(Past)",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2nd-Saab-9000-hatch.jpg/400px-2nd-Saab-9000-hatch.jpg",
+    "title": "Saab 9000",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2003-2005_Pontiac_Sunfire.jpg/400px-2003-2005_Pontiac_Sunfire.jpg",
+    "title": "Pontiac Sunfire",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG",
+    "title": "AMC Javelin",
+    "class": "{{Unbulleted list| Pony car | Muscle car },},",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jaguar_X-Type_Estate_front_20080731.jpg/400px-Jaguar_X-Type_Estate_front_20080731.jpg",
+    "title": "Jaguar X-Type",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 11,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg/400px-VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg",
+    "title": "Volkswagen Phaeton",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 12,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pontiac_G6.jpg/400px-Pontiac_G6.jpg",
+    "title": "Pontiac G6",
+    "class": "Midsize",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 13,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ford500a.JPG/400px-Ford500a.JPG",
+    "title": "Ford Five Hundred",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/PontiacSolstice.jpg/400px-PontiacSolstice.jpg",
+    "title": "Pontiac Solstice",
+    "class": "Roadster, coupe",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fiat_tipo_f.jpg/400px-Fiat_tipo_f.jpg",
+    "title": "Fiat Tipo",
+    "class": "Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 16,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/1985-89_Plymouth_Reliant_K_LE.png/400px-1985-89_Plymouth_Reliant_K_LE.png",
+    "title": "Plymouth Reliant",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 17,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/1978_chevette.JPG/400px-1978_chevette.JPG",
+    "title": "Chevrolet Chevette",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Seat_Leon_1.4_TSI_Start%26Stop_Style_%28III%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Ratingen.jpg/400px-Seat_Leon_1.4_TSI_Start%26Stop_Style_%28III%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Ratingen.jpg",
+    "title": "SEAT León",
+    "class": "Small family car"
+  },
+  {
+    "id": 19,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chevrolet_Corsica_1994.jpg/400px-Chevrolet_Corsica_1994.jpg",
+    "title": "Chevrolet Corsica",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1992_MX3_V6_24V.jpg/400px-1992_MX3_V6_24V.jpg",
+    "title": "Mazda MX-3",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 21,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg/400px-2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg",
+    "title": "TVR Tuscan Speed Six",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 22,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Aston_Martin_DB9_coupe_02.jpg/400px-Aston_Martin_DB9_coupe_02.jpg",
+    "title": "Aston Martin DB9",
+    "class": "Grand tourer",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 23,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pontiac_Catalina_front.jpg/400px-Pontiac_Catalina_front.jpg",
+    "title": "Pontiac Catalina",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 24,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Oldsmobile_Toronado_0003.jpg/400px-Oldsmobile_Toronado_0003.jpg",
+    "title": "Oldsmobile Toronado",
+    "class": "Full-size personal luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 25,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chrysler_Cirrus_--_01-27-2012.jpg/400px-Chrysler_Cirrus_--_01-27-2012.jpg",
+    "title": "Chrysler Cirrus",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 26,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/VW_Corrado_-_standard.jpg/400px-VW_Corrado_-_standard.jpg",
+    "title": "Volkswagen Corrado",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 27,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mercedes_R_350_CDI_4MATIC_Lang_%28V251%29_Facelift_front_20101017.jpg/400px-Mercedes_R_350_CDI_4MATIC_Lang_%28V251%29_Facelift_front_20101017.jpg",
+    "title": "Mercedes-Benz R-Class",
+    "class": "Full-size CUV / Large MPV"
+  },
+  {
+    "id": 28,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Volvo_V50_1.6_D.jpg/400px-Volvo_V50_1.6_D.jpg",
+    "title": "Volvo V50",
+    "class": "Compact / Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 29,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Audi_TT_Coup%C3%A9_2.0_TFSI_quattro_S-line_%288S%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/400px-Audi_TT_Coup%C3%A9_2.0_TFSI_quattro_S-line_%288S%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+    "title": "Audi TT",
+    "class": "Sport compact Sports car"
+  },
+  {
+    "id": 30,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg/400px-VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg",
+    "title": "Volkswagen Touareg",
+    "class": "Mid-size luxury crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 31,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Red92VR4rear.jpg/400px-Red92VR4rear.jpg",
+    "title": "Mitsubishi GTO",
+    "class": "Sports car, grand tourer",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 32,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cadillac_Cimarron_2_--_07-01-2009.jpg/400px-Cadillac_Cimarron_2_--_07-01-2009.jpg",
+    "title": "Cadillac Cimarron",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 33,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1991_Daytona_CS.JPG/400px-1991_Daytona_CS.JPG",
+    "title": "Dodge Daytona",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 34,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cadillac_Allante.jpg/400px-Cadillac_Allante.jpg",
+    "title": "Cadillac Allanté",
+    "class": "Luxury roadster",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 35,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Toyota_Avensis_III_20090706_front.JPG/400px-Toyota_Avensis_III_20090706_front.JPG",
+    "title": "Toyota Avensis",
+    "class": "Large family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 36,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mercedes_300SL_Coupe_vr_silver_EMS.jpg/400px-Mercedes_300SL_Coupe_vr_silver_EMS.jpg",
+    "title": "Mercedes-Benz 300 SL",
+    "class": "Sports car, GT",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 37,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Audi_80_B1234.jpg/400px-Audi_80_B1234.jpg",
+    "title": "Audi 80",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 38,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Audi_A2_front_20071002.jpg/400px-Audi_A2_front_20071002.jpg",
+    "title": "Audi A2",
+    "class": "Supermini",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 39,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Oldsmobile-Intrigue.jpg/400px-Oldsmobile-Intrigue.jpg",
+    "title": "Oldsmobile Intrigue",
+    "class": "Mid-size car"
+  },
+  {
+    "id": 40,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/91RT_1.jpg/400px-91RT_1.jpg",
+    "title": "Dodge Spirit",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 41,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%2782-%2784_Pontiac_6000_Coupe.jpg/400px-%2782-%2784_Pontiac_6000_Coupe.jpg",
+    "title": "Pontiac 6000",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 42,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dodge-Shadow-Coupe.jpg/400px-Dodge-Shadow-Coupe.jpg",
+    "title": "Dodge Shadow",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 43,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oldsmobile_Alero_sedan_--_03-16-2012.JPG/400px-Oldsmobile_Alero_sedan_--_03-16-2012.JPG",
+    "title": "Oldsmobile Alero",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 44,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg/400px-2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg",
+    "title": "Chrysler Crossfire",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 45,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/1968_AMC_AMX_white_at_Rockville_Maryland_show_2007.jpg/400px-1968_AMC_AMX_white_at_Rockville_Maryland_show_2007.jpg",
+    "title": "AMC AMX",
+    "class": "Grand tourer, Muscle car, Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 46,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/93_Dodge_Dynasty_%2814344073600%29.jpg/400px-93_Dodge_Dynasty_%2814344073600%29.jpg",
+    "title": "Dodge Dynasty",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 47,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Audi_A5_Coup%C3%A9_2.0_TFSI_quattro_S_tronic_Gletscherwei%C3%9F_Facelift.JPG/400px-Audi_A5_Coup%C3%A9_2.0_TFSI_quattro_S_tronic_Gletscherwei%C3%9F_Facelift.JPG",
+    "title": "Audi A5",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 48,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2015_Audi_A4_B9_3.0_TDI_quattro_V6_200_kW_S_line_Tangorot_Vorderansicht_%28cropped%29.jpg/400px-2015_Audi_A4_B9_3.0_TDI_quattro_V6_200_kW_S_line_Tangorot_Vorderansicht_%28cropped%29.jpg",
+    "title": "Audi A4",
+    "class": "Compact executive car"
+  },
+  {
+    "id": 49,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cadillac_V-16_Roadster_1930.jpg/400px-Cadillac_V-16_Roadster_1930.jpg",
+    "title": "Cadillac V-16",
+    "class": "Luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 50,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fiero88.JPG/400px-Fiero88.JPG",
+    "title": "Pontiac Fiero",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 51,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/1990_240sx_Quarter_View.JPG/400px-1990_240sx_Quarter_View.JPG",
+    "title": "Nissan 240SX",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 52,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2008_Chrysler_300.jpg/400px-2008_Chrysler_300.jpg",
+    "title": "Chrysler 300",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 53,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Volvo_C30_RDesign_HRes.jpg/400px-Volvo_C30_RDesign_HRes.jpg",
+    "title": "Volvo C30",
+    "class": "Premium compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 54,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Plymouth_Duster_%28Orange_Julep%29.jpg/400px-Plymouth_Duster_%28Orange_Julep%29.jpg",
+    "title": "Plymouth Duster",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 55,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mazda_Xedos_9.JPG/400px-Mazda_Xedos_9.JPG",
+    "title": "Mazda Millenia",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 56,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Fiat_Tempra_SX_%2793.jpg/400px-Fiat_Tempra_SX_%2793.jpg",
+    "title": "Fiat Tempra",
+    "class": "Family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 57,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Opel_Calibra_front_20071007.jpg/400px-Opel_Calibra_front_20071007.jpg",
+    "title": "Opel Calibra",
+    "class": "Coupé",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 58,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2001-2005_Peugeot_307_%28T5%29_5-door_hatchback_%282011-03-10%29.jpg/400px-2001-2005_Peugeot_307_%28T5%29_5-door_hatchback_%282011-03-10%29.jpg",
+    "title": "Peugeot 307",
+    "class": "Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 59,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2005_Peugeot_407_ST_HDi_Executive_sedan_%282015-07-09%29_01.jpg/400px-2005_Peugeot_407_ST_HDi_Executive_sedan_%282015-07-09%29_01.jpg",
+    "title": "Peugeot 407",
+    "class": "Large family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 60,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Simca_Chrysler_Horizon_GLS_1979.jpg/400px-Simca_Chrysler_Horizon_GLS_1979.jpg",
+    "title": "Simca-Talbot Horizon",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 61,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/OPEL-VAUX-SINTRA-A.jpg/400px-OPEL-VAUX-SINTRA-A.jpg",
+    "title": "Opel Sintra",
+    "class": "Large MPV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 62,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fiat_Stilo_front_20080711.jpg/400px-Fiat_Stilo_front_20080711.jpg",
+    "title": "Fiat Stilo",
+    "class": "Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 63,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ford_Fairmont_sedan_2.jpg/400px-Ford_Fairmont_sedan_2.jpg",
+    "title": "Ford Fairmont",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 64,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/1990_Dodge_Omni.JPG/400px-1990_Dodge_Omni.JPG",
+    "title": "Dodge Omni",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 65,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/00-02_Saturn_L-Series_sedan.jpg/400px-00-02_Saturn_L-Series_sedan.jpg",
+    "title": "Saturn L-Series",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 66,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Saturn_Ion_--_07-09-2009.jpg/400px-Saturn_Ion_--_07-09-2009.jpg",
+    "title": "Saturn Ion",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 67,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1996-1999_Saturn_SL2_--_03-16-2012.JPG/400px-1996-1999_Saturn_SL2_--_03-16-2012.JPG",
+    "title": "Saturn S-Series",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 68,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Chrysler_E_Class%2C_1984.png/400px-Chrysler_E_Class%2C_1984.png",
+    "title": "Chrysler E-Class",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 69,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Plymouth_Caravelle%2C_83-85.png/400px-Plymouth_Caravelle%2C_83-85.png",
+    "title": "Plymouth Caravelle",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 70,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/1984_Dodge_600_ES_Turbo.jpg/400px-1984_Dodge_600_ES_Turbo.jpg",
+    "title": "Dodge 600",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 71,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/%2782_Dodge_400_Coupe_%28Orange_Julep%29.JPG/400px-%2782_Dodge_400_Coupe_%28Orange_Julep%29.JPG",
+    "title": "Dodge 400",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 72,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1990_Plymouth_Laser_RS_Turbo_red.jpg/400px-1990_Plymouth_Laser_RS_Turbo_red.jpg",
+    "title": "Plymouth Laser",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 73,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2002-2004_Chrysler_300M_--_05-23-2012.JPG/400px-2002-2004_Chrysler_300M_--_05-23-2012.JPG",
+    "title": "Chrysler 300M",
+    "class": "Full-size luxury sports sedan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 74,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/1995_Vision_TSi_sedan.jpg/400px-1995_Vision_TSi_sedan.jpg",
+    "title": "Eagle Vision",
+    "class": "Full-size luxury sports sedan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 75,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chrysler-Concorde-Limited.jpg/400px-Chrysler-Concorde-Limited.jpg",
+    "title": "Chrysler Concorde",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 76,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/1992_Eagle_Premier_ES_Limited.jpg/400px-1992_Eagle_Premier_ES_Limited.jpg",
+    "title": "Eagle Premier",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 77,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lancia_Thema_8.32_Ferrari.jpg/400px-Lancia_Thema_8.32_Ferrari.jpg",
+    "title": "Lancia Thema",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 78,
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/76_Pontiac_Astre.jpg",
+    "title": "Pontiac Astre",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 79,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Vega_clay_model.jpg/400px-Vega_clay_model.jpg",
+    "title": "Chevrolet Vega",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 80,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Oldsmobile_Firenza_coupe_2.jpg/400px-Oldsmobile_Firenza_coupe_2.jpg",
+    "title": "Oldsmobile Firenza",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 81,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/75_Chevy_Monza_2%2B2.jpg",
+    "title": "Chevrolet Monza",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 82,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW_6er_Coup%C3%A9_Facelift_20090808_front.JPG/400px-BMW_6er_Coup%C3%A9_Facelift_20090808_front.JPG",
+    "title": "BMW 6 Series (E63)",
+    "class": "Grand tourer",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 83,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chevrolet_Citation_II_front.jpg/400px-Chevrolet_Citation_II_front.jpg",
+    "title": "Chevrolet Citation",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 84,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/96-98_Mercury_Villager_--_12-26-2009.jpg/400px-96-98_Mercury_Villager_--_12-26-2009.jpg",
+    "title": "Mercury Villager",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 85,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Nissan350Z-01.jpg/400px-Nissan350Z-01.jpg",
+    "title": "Nissan 350Z",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 86,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Hummer_H2_black.JPG/400px-Hummer_H2_black.JPG",
+    "title": "Hummer H2",
+    "class": "Full-size SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 87,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cadillac_XLR_2006.jpg/400px-Cadillac_XLR_2006.jpg",
+    "title": "Cadillac XLR",
+    "class": "Luxury roadster",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 88,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cadillac--STS.jpg/400px-Cadillac--STS.jpg",
+    "title": "Cadillac STS",
+    "class": "Mid-size luxury sedan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 89,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/04-07_Buick_Rendezvous_.jpg/400px-04-07_Buick_Rendezvous_.jpg",
+    "title": "Buick Rendezvous",
+    "class": "Mid-size crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 90,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/CT2007SciontC.jpg/400px-CT2007SciontC.jpg",
+    "title": "Scion tC",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 91,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/97-99_Cadillac_Catera_.jpg/400px-97-99_Cadillac_Catera_.jpg",
+    "title": "Cadillac Catera",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 92,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fiat_Coup%C3%A9_front_20090604.jpg/400px-Fiat_Coup%C3%A9_front_20090604.jpg",
+    "title": "Fiat Coupé",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 93,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2002-05_Pontiac_Aztek.jpg/400px-2002-05_Pontiac_Aztek.jpg",
+    "title": "Pontiac Aztek",
+    "class": "Mid-size crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 94,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Mercury-Milan-Premier.JPG/400px-Mercury-Milan-Premier.JPG",
+    "title": "Mercury Milan",
+    "class": "Mid-size"
+  },
+  {
+    "id": 95,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Audi_Quattro_vl_black.jpg/400px-Audi_Quattro_vl_black.jpg",
+    "title": "Audi Quattro",
+    "class": "Mid-size car, rally car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 96,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Volvo_V40_2012_ID42221_280212.jpg/400px-Volvo_V40_2012_ID42221_280212.jpg",
+    "title": "Volvo V40 (P1)",
+    "class": "Compact car / Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 97,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/LincolnAviator.jpg/400px-LincolnAviator.jpg",
+    "title": "Lincoln Aviator",
+    "class": "Mid-size luxury SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 98,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/00-02_Lincoln_LS_.jpg/400px-00-02_Lincoln_LS_.jpg",
+    "title": "Lincoln LS",
+    "class": "Mid-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 99,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2002_Lincoln_Blackwood_2.jpg/400px-2002_Lincoln_Blackwood_2.jpg",
+    "title": "Lincoln Blackwood",
+    "class": "Full-size luxury pickup truck",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/89mark.jpg/400px-89mark.jpg",
+    "title": "Lincoln Continental Mark VII",
+    "class": "Personal luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 101,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Mark_VIII.JPG/400px-Mark_VIII.JPG",
+    "title": "Lincoln Mark VIII",
+    "class": "Personal luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 102,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ford_Aerostar_LWB_1992-97.jpg/400px-Ford_Aerostar_LWB_1992-97.jpg",
+    "title": "Ford Aerostar",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 103,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Vw_t3_s_sst.jpg/400px-Vw_t3_s_sst.jpg",
+    "title": "Volkswagen Type 2 (T3)",
+    "class": "Light commercial vehicle",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 104,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/White_Alfa_Romeo_164.jpg/400px-White_Alfa_Romeo_164.jpg",
+    "title": "Alfa Romeo 164",
+    "class": "Mid-size luxury / Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 105,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2004_Scion_xA_--_NHTSA.jpg/400px-2004_Scion_xA_--_NHTSA.jpg",
+    "title": "Scion xA",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 106,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Alfa_155_WB_crop.JPG/400px-Alfa_155_WB_crop.JPG",
+    "title": "Alfa Romeo 155",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 107,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/2001_Rover_75_Connoisseur_sedan_%282015-07-09%29_01.jpg/400px-2001_Rover_75_Connoisseur_sedan_%282015-07-09%29_01.jpg",
+    "title": "Rover 75",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 108,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2011_Infiniti_M37_--_NHTSA_1.jpg/400px-2011_Infiniti_M37_--_NHTSA_1.jpg",
+    "title": "Infiniti M",
+    "class": "Mid-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 109,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Dodge_Aspen_2-door_sedan_brown.jpg/400px-Dodge_Aspen_2-door_sedan_brown.jpg",
+    "title": "Dodge Aspen",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 110,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1977Diplomat.jpg/400px-1977Diplomat.jpg",
+    "title": "Dodge Diplomat",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 111,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Chrysler_Neon_2001_by_a_Norwegian_fjord.JPG/400px-Chrysler_Neon_2001_by_a_Norwegian_fjord.JPG",
+    "title": "Chrysler Neon",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 112,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Dodge_SRT-4.jpg/400px-Dodge_SRT-4.jpg",
+    "title": "Dodge Neon SRT-4",
+    "class": "Sport Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 113,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Audi_Q7_timeline.jpg/400px-Audi_Q7_timeline.jpg",
+    "title": "Audi Q7",
+    "class": "Full-size luxury crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 114,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Mitsubishi_Raider_crew_cab.jpg/400px-Mitsubishi_Raider_crew_cab.jpg",
+    "title": "Mitsubishi Raider",
+    "class": "Mid-size pickup truck",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 115,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Monza30E.jpg/400px-Monza30E.jpg",
+    "title": "Opel Monza",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 116,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lincoln_Mark_LT_long_bed.jpg/400px-Lincoln_Mark_LT_long_bed.jpg",
+    "title": "Lincoln Mark LT",
+    "class": "Full-size luxury pickup truck",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 117,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Speedster_Turbo_1.JPG/400px-Speedster_Turbo_1.JPG",
+    "title": "Opel Speedster",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 118,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/1997-2000_Chevrolet_Venture_SWB_3-Door.jpg/400px-1997-2000_Chevrolet_Venture_SWB_3-Door.jpg",
+    "title": "Chevrolet Venture",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 119,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/1994-1996_Chevrolet_Lumina_APV.jpg/400px-1994-1996_Chevrolet_Lumina_APV.jpg",
+    "title": "Chevrolet Lumina APV",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 120,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pontiac_Montana_LWB.jpg/400px-Pontiac_Montana_LWB.jpg",
+    "title": "Pontiac Montana",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 121,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Chevrolet_Uplander_LWB.jpg/400px-Chevrolet_Uplander_LWB.jpg",
+    "title": "Chevrolet Uplander",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 122,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Buick_Terraza_--_09-26-2009.jpg/400px-Buick_Terraza_--_09-26-2009.jpg",
+    "title": "Buick Terraza",
+    "class": "Minivan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 123,
+    "image": "",
+    "title": "Ɛ̃fini MS-8",
+    "class": "Luxury",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 124,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Autozam_Clef.JPG/400px-Autozam_Clef.JPG",
+    "title": "Autozam Clef",
+    "class": "Mid-size car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 125,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mazda_Persona.jpg/400px-Mazda_Persona.jpg",
+    "title": "Mazda Persona",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 126,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Seat_Altea_front_20090919.jpg/400px-Seat_Altea_front_20090919.jpg",
+    "title": "SEAT Altea",
+    "class": "Compact MPV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 127,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/1996_Rover_618_i_-_rear.jpg/400px-1996_Rover_618_i_-_rear.jpg",
+    "title": "Rover 600 Series",
+    "class": "Large family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 128,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/1982MercuryLynx.jpg/400px-1982MercuryLynx.jpg",
+    "title": "Mercury Lynx",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 129,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/89_Beretta_GT.jpg/400px-89_Beretta_GT.jpg",
+    "title": "Chevrolet Beretta",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 130,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Citro%C3%ABn_C6_front_20100327.jpg/400px-Citro%C3%ABn_C6_front_20100327.jpg",
+    "title": "Citroën C6",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 131,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Geo_Storm_--_-07-09-2009.jpg/400px-Geo_Storm_--_-07-09-2009.jpg",
+    "title": "Geo Storm",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 132,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/90-92_Geo_Prizm.jpg/400px-90-92_Geo_Prizm.jpg",
+    "title": "Geo Prizm",
+    "class": "Subcompact (1989–1992) Compact (1993–2002)",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 133,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/68_Yenko_Camaro.jpg/400px-68_Yenko_Camaro.jpg",
+    "title": "Yenko Camaro",
+    "class": "pony car <BR> muscle car <BR> sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 134,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2009-2010_Ford_Territory_%28SY_II%29_TX_wagon_01.jpg/400px-2009-2010_Ford_Territory_%28SY_II%29_TX_wagon_01.jpg",
+    "title": "Ford Territory",
+    "class": "Mid-size SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 135,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2006-2009_Holden_WM_Statesman_sedan_01.jpg/400px-2006-2009_Holden_WM_Statesman_sedan_01.jpg",
+    "title": "Holden Caprice",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 136,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oldsmobile_Cutlass_Calais_--_08-28-2009.jpg/400px-Oldsmobile_Cutlass_Calais_--_08-28-2009.jpg",
+    "title": "Oldsmobile Cutlass Calais",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 137,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/00-02_Toyota_Echo_coupe.jpg/400px-00-02_Toyota_Echo_coupe.jpg",
+    "title": "Toyota Platz",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 138,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/1988_Buick_Reatta%2C_front_left.jpg/400px-1988_Buick_Reatta%2C_front_left.jpg",
+    "title": "Buick Reatta",
+    "class": "Grand tourer",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 139,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Lotus_EXIGE_dutch_licence_registration_01-HXR-9_pic1.JPG/400px-Lotus_EXIGE_dutch_licence_registration_01-HXR-9_pic1.JPG",
+    "title": "Lotus Exige",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 140,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016_Volvo_S90_Inscription_fr.jpg/400px-2016_Volvo_S90_Inscription_fr.jpg",
+    "title": "Volvo S90",
+    "class": "Executive car /",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 141,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Volvo_S70_--_02-29-2012.JPG/400px-Volvo_S70_--_02-29-2012.JPG",
+    "title": "Volvo S70",
+    "class": "Executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 142,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jeep_Grand_Wagoneer_001.JPG/400px-Jeep_Grand_Wagoneer_001.JPG",
+    "title": "Jeep Wagoneer (SJ)",
+    "class": "Full-size SUV (1963–1991)",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 143,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pontiac_Torrent_--_08-28-2009.jpg/400px-Pontiac_Torrent_--_08-28-2009.jpg",
+    "title": "Pontiac Torrent",
+    "class": "Mid-size crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 144,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Isuzu-Ascender-7Pass.jpg/400px-Isuzu-Ascender-7Pass.jpg",
+    "title": "Isuzu Ascender",
+    "class": "mid-size SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 145,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/English_Ford_Puma.jpg/400px-English_Ford_Puma.jpg",
+    "title": "Ford Puma",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 146,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/1997_Oldsmobile_Achieva_SL.png/400px-1997_Oldsmobile_Achieva_SL.png",
+    "title": "Oldsmobile Achieva",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 147,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%2786_Shelby_GLHS_%28Orange_Julep_%2709%29.jpg/400px-%2786_Shelby_GLHS_%28Orange_Julep_%2709%29.jpg",
+    "title": "Shelby GLHS",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 148,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2009_Saturn_Sky_Redline_Ruby_Red_Limited_Edition.jpg/400px-2009_Saturn_Sky_Redline_Ruby_Red_Limited_Edition.jpg",
+    "title": "Saturn Sky",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 149,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2006-2007_Volkswagen_New_Beetle.jpg/400px-2006-2007_Volkswagen_New_Beetle.jpg",
+    "title": "Volkswagen New Beetle",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1976_AMC_Hornet_Sportabout.jpg/400px-1976_AMC_Hornet_Sportabout.jpg",
+    "title": "AMC Hornet",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 151,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Audi_V8Quattro.jpg/400px-Audi_V8Quattro.jpg",
+    "title": "Audi V8",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 152,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Recreational_Vehicle.JPG/400px-Recreational_Vehicle.JPG",
+    "title": "Dodge Ram Van",
+    "class": "Van",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 153,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Fiat_Strada_Pick-Up.JPG/400px-Fiat_Strada_Pick-Up.JPG",
+    "title": "Fiat Strada",
+    "class": "Coupé utility",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 154,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Chevrolet_SSR.jpg/400px-Chevrolet_SSR.jpg",
+    "title": "Chevrolet SSR",
+    "class": "pickup",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 155,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Samand_LX_31.jpg/400px-Samand_LX_31.jpg",
+    "title": "IKCO Samand",
+    "class": "Small family carsedan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 156,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Renault_Modus_front_20080530.jpg/400px-Renault_Modus_front_20080530.jpg",
+    "title": "Renault Modus",
+    "class": "Mini MPV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 157,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nissan-Titan-crewcab.jpg/400px-Nissan-Titan-crewcab.jpg",
+    "title": "Nissan Titan",
+    "class": "Full-size pickup truck"
+  },
+  {
+    "id": 158,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chevrolet_Cobalt_Coupe.jpg/400px-Chevrolet_Cobalt_Coupe.jpg",
+    "title": "Chevrolet Cobalt",
+    "class": "Compact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 159,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2007ChevroletHHR-001.jpg/400px-2007ChevroletHHR-001.jpg",
+    "title": "Chevrolet HHR",
+    "class": "Compact Car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 160,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Toyopet1500RK23.jpg/400px-Toyopet1500RK23.jpg",
+    "title": "Toyota Stout",
+    "class": "light truck",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 161,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2007-Saturn-Aura-XE.JPG/400px-2007-Saturn-Aura-XE.JPG",
+    "title": "Saturn Aura",
+    "class": "Mid-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 162,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Saab_9-7X_--_03-19-2012.JPG/400px-Saab_9-7X_--_03-19-2012.JPG",
+    "title": "Saab 9-7X",
+    "class": "Mid-size luxury SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 163,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bentley_Continental_Flying_Spur_-_Flickr_-_Alexandre_Pr%C3%A9vot_%28cropped%29.jpg/400px-Bentley_Continental_Flying_Spur_-_Flickr_-_Alexandre_Pr%C3%A9vot_%28cropped%29.jpg",
+    "title": "Bentley Continental Flying Spur (2005)",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 164,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Fiat_Idea_front_20071102.jpg/400px-Fiat_Idea_front_20071102.jpg",
+    "title": "Fiat Idea",
+    "class": "Mini MPV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 165,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Fiat_Marea_2420V_2003.jpg/400px-Fiat_Marea_2420V_2003.jpg",
+    "title": "Fiat Marea",
+    "class": "Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 166,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/1991_Nissan_Figaro_%28E-FK10%29_convertible_%2826452674766%29.jpg/400px-1991_Nissan_Figaro_%28E-FK10%29_convertible_%2826452674766%29.jpg",
+    "title": "Nissan Figaro",
+    "class": "City car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 167,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/06-07_Cadillac_DTS.jpg/400px-06-07_Cadillac_DTS.jpg",
+    "title": "Cadillac DTS",
+    "class": "Full-size luxury car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 168,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Blue_Audi_RS6_C5_sedan_fl.jpg/400px-Blue_Audi_RS6_C5_sedan_fl.jpg",
+    "title": "Audi RS 6",
+    "class": "Mid-size luxury car, sports car"
+  },
+  {
+    "id": 169,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cadillac_BLS_front.JPG/400px-Cadillac_BLS_front.JPG",
+    "title": "Cadillac BLS",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 170,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Buick_Invicta_Convertible_1961.jpg/400px-Buick_Invicta_Convertible_1961.jpg",
+    "title": "Buick Invicta",
+    "class": "Full-size",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 171,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Buick_Somerset.jpg/400px-Buick_Somerset.jpg",
+    "title": "Buick Somerset",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 172,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Thomas_Vista.jpg/400px-Thomas_Vista.jpg",
+    "title": "Thomas Vista",
+    "class": "Type C",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 173,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%22_12_-_ITALY_-_Alfa_Romeo_Brera_Milan_Design_Week_Superstudio.JPG/400px-%22_12_-_ITALY_-_Alfa_Romeo_Brera_Milan_Design_Week_Superstudio.JPG",
+    "title": "Alfa Romeo Brera and Spider",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 174,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alfa_159_grey.jpg/400px-Alfa_159_grey.jpg",
+    "title": "Alfa Romeo 159",
+    "class": "Compact executive car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 175,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/M%C3%A9hari_-_Flickr_-_besopha.jpg/400px-M%C3%A9hari_-_Flickr_-_besopha.jpg",
+    "title": "Citroën Méhari",
+    "class": "Off-road compact SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 176,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/1979_AMC_Spirit_GT_V8_Russet_FR.jpg/400px-1979_AMC_Spirit_GT_V8_Russet_FR.jpg",
+    "title": "AMC Spirit",
+    "class": "Subcompact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 177,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2014_Audi_Q5_%288R_MY14%29_2.0_TDI_quattro_wagon_%282015-07-24%29_01.jpg/400px-2014_Audi_Q5_%288R_MY14%29_2.0_TDI_quattro_wagon_%282015-07-24%29_01.jpg",
+    "title": "Audi Q5",
+    "class": "Compact luxury crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 178,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/1978_AMC_Concord_DL_4-door_sedan_beige.jpg/400px-1978_AMC_Concord_DL_4-door_sedan_beige.jpg",
+    "title": "AMC Concord",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 179,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alfa_Romeo_145_001.JPG/400px-Alfa_Romeo_145_001.JPG",
+    "title": "Alfa Romeo 145 and 146",
+    "class": "Small family car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 180,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2007_Hummer_H3_--_NHTSA.jpg/400px-2007_Hummer_H3_--_NHTSA.jpg",
+    "title": "Hummer H3",
+    "class": "{{ubl | Mid-size SUV | Pickup truck },},",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 181,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Schuppan_962CR.jpg/400px-Schuppan_962CR.jpg",
+    "title": "Schuppan 962CR",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 182,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Honda_Orthia.jpg/400px-Honda_Orthia.jpg",
+    "title": "Honda Orthia",
+    "class": "Compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 183,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2008_Jeep_Compass_%28MK_MY08%29_Limited_2.4_wagon_%282015-11-11%29_01.jpg/400px-2008_Jeep_Compass_%28MK_MY08%29_Limited_2.4_wagon_%282015-11-11%29_01.jpg",
+    "title": "Jeep Compass",
+    "class": "Compact crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 184,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LHS_1995-97.JPG/400px-LHS_1995-97.JPG",
+    "title": "Chrysler LHS",
+    "class": "Full-size luxury sedan",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 185,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Dodge_D100.jpg/400px-Dodge_D100.jpg",
+    "title": "Dodge D Series",
+    "class": "Full-size pickup truck",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 186,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2008-10-05_Red_Plymouth_Prowler_at_South_Square.jpg/400px-2008-10-05_Red_Plymouth_Prowler_at_South_Square.jpg",
+    "title": "Plymouth Prowler",
+    "class": "Sports car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 187,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/07-08_Chrysler_Pacifica.jpg/400px-07-08_Chrysler_Pacifica.jpg",
+    "title": "Chrysler Pacifica (CS)",
+    "class": "Mid-size crossover",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 188,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mercedes-Benz_230_SL%2C_Bj._1964_%282009-05-01%29.jpg/400px-Mercedes-Benz_230_SL%2C_Bj._1964_%282009-05-01%29.jpg",
+    "title": "Mercedes-Benz W113",
+    "class": "Sports car, GT",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 189,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2003-2005_Infiniti_FX35.jpg/400px-2003-2005_Infiniti_FX35.jpg",
+    "title": "Infiniti QX70",
+    "class": "Mid-size luxury crossover SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 190,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/FordEXP1982.jpg",
+    "title": "Ford EXP",
+    "class": "Sport compact",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 191,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Daewoo_Espero_front_20071227.jpg/400px-Daewoo_Espero_front_20071227.jpg",
+    "title": "Daewoo Espero",
+    "class": "Mid-size car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 192,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2001_Daewoo_Lanos_%28T150%29_Sport_3-door_hatchback_%282010-06-17%29_01.jpg/400px-2001_Daewoo_Lanos_%28T150%29_Sport_3-door_hatchback_%282010-06-17%29_01.jpg",
+    "title": "Daewoo Lanos",
+    "class": "Subcompact car",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  },
+  {
+    "id": 193,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2006-2011_Chevrolet_Captiva_LS_wagon_%282015-12-28%29_01.jpg/400px-2006-2011_Chevrolet_Captiva_LS_wagon_%282015-12-28%29_01.jpg",
+    "title": "Chevrolet Captiva",
+    "class": "Compact/mid-size SUV",
+    "price": 25000000,
+    "categories": [
+      "Cars",
+      "Sport"
+    ],
+    "description": "Lorem Ipsum",
+    "user_id": 1
+  }
+]
