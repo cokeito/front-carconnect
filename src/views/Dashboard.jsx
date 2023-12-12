@@ -9,7 +9,7 @@ import { ProductContext } from '../contexts/product_provider'
 export const Dashboard = () => {
 
   const { products } = useContext(ProductContext)
-  const n_products = products.slice(0, 100)
+  const n_products = products.slice(0, 15)
 
 
   return (

@@ -1,8 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import InputForm from '../components/forms/InputForm'
 
 export const Login = () => {
+
+  const navigate = useNavigate();
+
+  const navigateToDashboard = () => {
+    navigate('/dashboard')
+  }
+
   return (
     <>
       <div className="lg:flex">
@@ -34,7 +41,9 @@ export const Login = () => {
                 <div className="mt-24">
                   <button className=" bg-yellow-400 text-gray-100 p-4 w-full rounded-full tracking-wide
                                 font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-900
-                                shadow-lg">
+                                shadow-lg"
+                    onClick={navigateToDashboard}
+                  >
                     Ingresar
                   </button>
                 </div>

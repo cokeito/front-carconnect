@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className="navbar bg-indigo-950  fixed top-0 z-50 shadow-lg">
       <div className="flex-1 p-3">
-        <img src="/assets/images/logo_color.svg" alt="" className="w-[100px]" />
+        <Link to="/dashboard">
+          <img src="/assets/images/logo_color.svg" alt="" className="w-[100px]" />
+        </Link>
       </div>
       <div className="flex-none gap-2">
 
@@ -31,12 +33,10 @@ const Navbar = () => {
           <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
             <li>
               <a className="justify-between">
-                Profile
-                <span className="badge">New</span>
+                Perfil
               </a>
             </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
+            <li><a>Cerrar Sesión</a></li>
           </ul>
         </div>
       </div>
