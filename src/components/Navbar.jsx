@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         <div className="form-control">
-          <Link to="/" className="btn bg-yellow-400 border-none">Publicar Auto</Link>
+          <Link to="/publish" className="btn bg-yellow-400 border-none">Publicar Auto</Link>
         </div>
 
         <div className="form-control">
@@ -32,9 +32,9 @@ const Navbar = () => {
 
           <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
             <li>
-              <a className="justify-between">
+              <Link to="/profile" className="justify-between">
                 Perfil
-              </a>
+              </Link>
             </li>
             <li><a>Cerrar Sesión</a></li>
           </ul>

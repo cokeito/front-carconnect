@@ -6,6 +6,7 @@ import { Items } from '../components/Items';
 import { Footer } from '../components/Footer';
 
 import { ProductContext } from '../contexts/product_provider'
+import { Layout } from '../layouts/Layout';
 
 export const Product = () => {
   const { id } = useParams()
@@ -34,17 +35,16 @@ export const Product = () => {
 
   console.log('productData: ', productData)
   return (
-    <>
-      <Navbar />
+    <Layout>
 
       <section className="min-h-[200px] overflow-hidden bg-white py-11 font-poppins mt-10">
         {productData && (
-          <div className="max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
+          <div className="container py-4 mx-auto lg:py-8 md:px-6">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4 md:w-1/2 ">
                 <div className="sticky top-0 z-30 overflow-hidden ">
                   <div className="relative mb-6 lg:mb-10 lg:h-2/4 ">
-                    <img src={productData.image} alt="" className="object-cover w-full lg:h-full" />
+                    <img src={productData.image} alt="" className="object-cover w-full lg:h-full rounded-lg" />
                   </div>
                   <div className="flex-wrap hidden md:flex ">
                     <div className="w-1/2 p-2 sm:w-1/4">
@@ -177,14 +177,10 @@ export const Product = () => {
       <section className="my-10">
         <div className="container mx-auto px-10">
 
-          <Items title="Destacados" products={products.slice(-3)} />
+          <Items title="Destacados" products={products.slice(-4)} />
         </div>
       </section>
 
-
-      <Footer />
-
-
-    </>
+    </Layout>
   )
 }

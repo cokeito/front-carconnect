@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactCardSlider from 'react-card-slider-component';
+import { Title } from './Title';
 
 const sliderClick = (e) => {
   console.log(e)
@@ -14,7 +15,7 @@ const slides = [
   { image: "/assets/images/cat_placeholder.jpg", title: "Cat Name 5", clickEvent: sliderClick },
 ]
 
-export const Categories = () => {
+export const Categories = ({ title }) => {
   return (
     /*<>
       <div className="card w-96 bg-base-100 shadow-xl image-full">
@@ -28,8 +29,9 @@ export const Categories = () => {
         </div>
       </div>
     </>*/
-    <>
+    <div>
+      <Title title={title} />
       <ReactCardSlider slides={slides} />
-    </>
+    </div>
   )
 }
