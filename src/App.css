@@ -154,3 +154,15 @@ https://flickity.metafizzy.co
   max-height: 700px;
   min-height: 320px;
 }
+
+.cat-slide {
+  width: 25%;
+  max-height: 40vh;
+
+}
+
+.text-alert-required {
+  font-size: 10px;
+  color: #f00;
+  transform: all 0.5s ease-in-out;
+}

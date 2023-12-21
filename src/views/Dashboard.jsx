@@ -3,29 +3,31 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import { Categories } from '../components/Categories'
 import { Items } from '../components/Items'
-import { Footer } from '../components/Footer'
 import { ProductContext } from '../contexts/product_provider'
 import { Layout } from '../layouts/Layout'
+import { Cat } from '../components/Cat'
 
 export const Dashboard = () => {
 
   const { products } = useContext(ProductContext)
-  const n_products = products.slice(0, 15)
-
 
   return (
     <>
       <Layout>
         <Hero />
+
         <section>
           <div className="container mx-auto flex gap-5 mt-10 px-10">
-            <Categories title="Categorias" />
+
+          </div >
+          <div className="container mx-auto mt-10 px-10">
+            <Cat />
           </div >
         </section>
 
         <section className="my-10">
           <div className="container mx-auto px-10">
-            <Items title="Marketplace" products={n_products} />
+            <Items title="Marketplace" products={products} />
           </div>
         </section>
 

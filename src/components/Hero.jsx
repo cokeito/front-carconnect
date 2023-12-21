@@ -26,7 +26,7 @@ const Hero = () => {
           <div
             className="hero-slide"
             style={{
-              background: `url("/assets/images/banner_car.jpg")`,
+              background: `url("/assets/images/banner_car.webp")`,
               backgroundPosition: 'center bottom 50%',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
@@ -38,7 +38,7 @@ const Hero = () => {
           <div
             className="hero-slide"
             style={{
-              background: `url("/assets/images/banner_car_2.jpg")`,
+              background: `url("/assets/images/banner_car_2.webp")`,
               backgroundPosition: 'right 50% center',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',

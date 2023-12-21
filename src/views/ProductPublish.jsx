@@ -1,15 +1,42 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import { Layout } from '../layouts/Layout'
 import { Title } from '../components/Title'
 
-import InputForm from '../components/forms/InputForm'
-import SelectForm from '../components/forms/SelectForm'
+import { InputForm } from '../components/forms/InputForm'
+import { SelectForm } from '../components/forms/SelectForm'
 
 import { TextAreaForm } from '../components/forms/TextAreaForm'
 import { FileForm } from '../components/forms/FileForm'
+import { useForm } from 'react-hook-form'
+import { CarApi } from '../api/CarApi'
+
+import { ProductContext } from '../contexts/product_provider'
+import { useNavigate } from 'react-router-dom'
+import { RequiredValidation } from '../components/forms/RequiredValidation'
+
 
 export const ProductPublish = () => {
+
+  const navigate = useNavigate();
+  const { itemCategories, getProducts } = useContext(ProductContext)
+
+  function getBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = error => reject(error);
+    });
+  }
+
+
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm()
 
   const carsYear = [
     { value: 2000, label: '2000' },
@@ -46,105 +73,189 @@ export const ProductPublish = () => {
     label: 'No'
   }].reverse()
 
-  const categories = [
+  const types = [
     { value: 1, label: 'Nuevo' },
     { value: 2, label: 'Usado' }
 
   ]
+
+  const categories = itemCategories.map(category => {
+    return {
+      value: category.id,
+      label: category.name
+    }
+  })
+
+  const onSubmit = async (data) => {
+    try {
+
+      const arr = Array.from(data.photos)
+      const promises = arr.map(file => getBase64(file));
+      data.photos = await Promise.all(promises);
+
+      console.log(data);
+
+      const res = await CarApi.post('/items/', data)
+
+      if (res.status == 200) {
+        console.log(res.data);
+        //update get_products_state
+        getProducts()
+        navigate(`/products/${res.data.id}`, { state: { message: res.data.message } })
+
+      }
+    } catch (error) {
+
+    }
+
+
+  }
+
   return (
 
     <Layout>
-
       <section className="min-h-[200px] overflow-hidden bg-white py-11 font-poppins mt-10">
         <div className="container mx-auto mt-10 px-10">
           <Title title="Publica tu vehículo" />
-          <form>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="grid grid-cols-[4fr,3fr,1fr,2fr] gap-5">
-              <InputForm
-                label="Marca / Modelo "
-                placeholder="Ingresa la Marca Y Modelo de tu vehículo"
-                type="text"
-                id="product_title"
-                fontSize="text-sm"
+              <div>
+                <InputForm
+                  label="Marca / Modelo "
+                  placeholder="Ingresa la Marca Y Modelo de tu vehículo"
+                  type="text"
+                  id="product_title"
+                  fontSize="text-sm"
+                  name="name"
+                  register={register}
+                />
+                {errors.name && <RequiredValidation />}
+              </div>
 
-              />
+              <div>
+                <InputForm
+                  label="Descripción"
+                  placeholder="Ingresa una pequeña descripción de tu vehículo"
+                  type="text"
+                  id="product_description"
+                  fontSize="text-sm"
+                  name="excerpt"
+                  register={register}
+                />
+                {errors.excerpt && <RequiredValidation />}
+              </div>
 
-              <InputForm
-                label="Descripción"
-                placeholder="Ingresa una pequeña descripción de tu vehículo"
-                type="text"
-                id="product_description"
-                fontSize="text-sm"
-              />
-
-              <SelectForm
-                label="Año"
-                placeholder="Ingresa el año de tu vehículo"
-                type="text"
-                id="product_ano"
-                fontSize="text-sm"
-                options={carsYear}
-              />
-
-              <InputForm
-                label="Precio"
-                placeholder="Ingresa el precio"
-                type="text"
-                id="product_price"
-                fontSize="text-sm"
-              />
+              <div>
+                <SelectForm
+                  label="Año"
+                  placeholder="Ingresa el año de tu vehículo"
+                  type="text"
+                  id="product_ano"
+                  fontSize="text-sm"
+                  options={carsYear}
+                  name="year"
+                  register={register}
+                />
+                {errors.year && <RequiredValidation />}
+              </div>
+              <div>
+                <InputForm
+                  label="Precio"
+                  placeholder="Ingresa el precio"
+                  type="text"
+                  id="product_price"
+                  fontSize="text-sm"
+                  name="price"
+                  register={register}
+                />
+                {errors.price && <RequiredValidation />}
+              </div>
 
             </div>
 
-            <div className="mt-10 grid grid-cols-[2fr,3fr,3fr] gap-5">
-              <SelectForm
-                label="Categoria"
-                placeholder="Ingresa el año de tu vehículo"
-                type="text"
-                id="product_category"
-                fontSize="text-sm"
-                options={categories}
-              />
+            <div className="mt-10 grid grid-cols-[2fr,2fr,2fr,2fr] gap-5">
+              <div>
+                <SelectForm
+                  label="Estado de tu vehículo"
+                  placeholder="Estado de tu vehículo"
+                  type="text"
+                  id="product_type"
+                  fontSize="text-sm"
+                  options={types}
+                  name="item_type"
+                  register={register}
+                />
+              </div>
 
-              <SelectForm
-                label="Agregamos Descuento?"
-                placeholder="Ingresa el año de tu vehículo"
-                type="text"
-                id="product_discount"
-                fontSize="text-sm"
-                options={isDiscount}
-              />
+              <div>
+                <SelectForm
+                  label="Categoria"
+                  placeholder="Categoria"
+                  type="text"
+                  id="product_category"
+                  fontSize="text-sm"
+                  options={categories}
+                  name="item_category_id"
+                  register={register}
+                />
+              </div>
 
-              <InputForm
-                label="Precio (Descuento)"
-                placeholder="Ingresa el precio con descuento"
-                type="text"
-                id="product_discount_price"
-                fontSize="text-sm"
-              />
+              <div>
+                <SelectForm
+                  label="Agregamos Descuento?"
+                  placeholder="Ingresa el año de tu vehículo"
+                  type="text"
+                  id="product_discount"
+                  fontSize="text-sm"
+                  options={isDiscount}
+                  name="is_discount"
+                  register={register}
+                />
+              </div>
+              <div>
+                <InputForm
+                  label="Precio (Descuento)"
+                  placeholder="Ingresa el precio con descuento"
+                  type="text"
+                  id="product_discount_price"
+                  fontSize="text-sm"
+                  name="discount_price"
+                  register={register}
+                />
+                {errors.discount_price && <RequiredValidation />}
+              </div>
 
             </div>
 
             <div className="mt-10 grid grid-cols-[1fr] gap-5">
+              <div>
+                <TextAreaForm
+                  label="Descripción de tu vehiculo"
+                  placeholder="Acá expláyate y escribe todo lo que se te ocurra"
+                  type="text"
+                  id="product_description"
+                  fontSize="text-sm"
+                  name="description"
+                  register={register}
+                />
+                {errors.description && <RequiredValidation />}
+              </div>
 
-              <TextAreaForm
-                label="Descripción de tu vehiculo"
-                placeholder="Acá expláyate y escribe todo lo que se te ocurra"
-                type="text"
-                id="product_description"
-                fontSize="text-sm"
-              />
 
             </div>
 
             <div className="mt-10 grid grid-cols-[1fr] gap-5">
-              <FileForm
-                label="Imagenes"
-                placeholder="Acá expláyate y escribe todo lo que se te ocurra"
-                type="text"
-                id="product_description"
-                fontSize="text-sm"
-              />
+              <div>
+                <FileForm
+                  label="Imagenes"
+                  placeholder="Acá expláyate y escribe todo lo que se te ocurra"
+                  id="product_description"
+                  fontSize="text-sm"
+                  name="photos[]"
+                  register={register}
+                />
+                {errors.photos && <RequiredValidation />}
+              </div>
             </div>
 
             <div className="mt-24 flex justify-end">
