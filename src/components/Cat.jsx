@@ -5,19 +5,16 @@ import { Title } from './Title'
 import { ProductContext } from '../contexts/product_provider'
 
 const flickityOptions = {
-  cellAlign: 'right',
+  cellAlign: 'left',
   contain: false,
   prevNextButtons: true,
   pageDots: false,
-  autoPlay: 2000,
   lazyLoad: true
 }
 
 export const Cat = () => {
 
   const { itemCategories } = useContext(ProductContext)
-  console.log(itemCategories)
-
 
   return (
     <>
@@ -39,7 +36,7 @@ export const Cat = () => {
                 </span>
               </div>
 
-              <img src={`/public/assets/images/categories/${category.photo}`} alt={category.name} className="rounded-lg h-full w-full object-cover " />
+              <img src={`/assets/images/categories/${category.photo}`} alt={category.name} className="rounded-lg h-full w-full object-cover " />
             </div>
           ))}
 

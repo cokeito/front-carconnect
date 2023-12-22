@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 export const ProductContext = createContext();
 
 const ProductProvider = ({ children }) => {
-  console.log('init product_provider');
+  //console.log('init product_provider');
   const { user } = useContext(UserContext)
 
   const [products, setProducts] = useState([])
@@ -25,7 +25,6 @@ const ProductProvider = ({ children }) => {
       const res = await CarApi.get('/wishlist/user')
 
       if (res.status == 200) {
-        console.log('my wish', res.data);
         setWishlistItems(res.data)
       }
     } catch (error) {
@@ -38,7 +37,7 @@ const ProductProvider = ({ children }) => {
     try {
       const res = await CarApi.get('/wishlist')
       if (res.status == 200) {
-        console.log('**** wishlist: ', res.data);
+
         setWishlist(res.data)
       }
     } catch (error) {
@@ -65,8 +64,7 @@ const ProductProvider = ({ children }) => {
         setItemCategories(res.data)
       }
     } catch (error) {
-      console.log(error);
-      setItemCategories([])
+
     }
   }
 
@@ -79,9 +77,10 @@ const ProductProvider = ({ children }) => {
         setIsLoadingProduct(false)
       }
     } catch (error) {
-      console.log(error)
-      setProduct()
-      toast.error('Error')
+
+      if (error.response.status == 404) {
+        toast.error(error?.response?.data.message)
+      }
     }
   }
 

@@ -5,7 +5,7 @@ export const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem("token")
 
   if (!token) {
-    console.log('no token')
+    //console.log('no token')
     return <Navigate to="/login" />
   }
 

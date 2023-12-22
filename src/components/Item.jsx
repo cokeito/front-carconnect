@@ -9,8 +9,7 @@ import { BadgeProductType } from './BadgeProductType'
 import { BadgeCategory } from './BadgeCategory'
 
 export const Item = ({ product }) => {
-  //console.log('product: ', product.photos)
-  const { formatter, wishlist } = useContext(ProductContext)
+  const { formatter } = useContext(ProductContext)
 
   return (
     <>
@@ -25,7 +24,10 @@ export const Item = ({ product }) => {
           {product.is_discount &&
             <SaleTag />
           }
-          <ImageOrPlaceHolder image={(product?.photos.length > 0) ? product?.photos[0].photo : undefined} alt="Car" />
+          <Link
+            to={`/products/${product.id}`}>
+            <ImageOrPlaceHolder image={(product?.photos.length > 0) ? product?.photos[0].photo : undefined} alt="Car" />
+          </Link>
         </figure>
 
         <div className="card-body">

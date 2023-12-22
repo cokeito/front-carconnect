@@ -6,7 +6,7 @@ import { BadgeProductType } from './BadgeProductType'
 import { BadgeCategory } from './BadgeCategory'
 
 export const SearchResult = ({ product, index }) => {
-  console.log(product);
+
   const { formatter } = useContext(ProductContext)
   return (
     <Link to={`/products/${product.id}`}>

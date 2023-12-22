@@ -20,7 +20,7 @@ export const IconHeart = ({ product }) => {
       const res = !isInWishlist ? await CarApi.post(`/items/${product.id}/wishlist`, data) : await CarApi.delete(`/items/${product.id}/wishlist`, { data })
 
       if (res.status == 200) {
-        console.log(res.data);
+
         //refresh wishlist state
         getWishlist()
         getWishListItems()

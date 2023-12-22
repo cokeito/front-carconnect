@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const token = localStorage.getItem('token');
-console.log('token: ', token);
+export const API_URL = import.meta.env.VITE_API_URL;
 
-export const API_URL = 'http://localhost:4000/';
+console.log('env: ', import.meta.env.VITE_APP_TITLE); // "My App (Development)" or "My App (Production)"
 
 export const CarApi = axios.create({
   baseURL: API_URL,

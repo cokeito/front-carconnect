@@ -7,11 +7,10 @@ export const Star = ({ itemId, score, currentScore }) => {
   const { getProduct } = useContext(ProductContext)
 
   const handleStarClick = async (itemId, score) => {
-    console.log('click star', score, itemId)
+
     try {
       const res = await CarApi.post(`/items/${itemId}/score`, { score })
       if (res.status == 200) {
-        console.log('res.data: ', res.data)
         getProduct(itemId)
       }
 

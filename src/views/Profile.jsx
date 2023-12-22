@@ -28,7 +28,7 @@ export const Profile = () => {
 
   const onSubmit = async (data) => {
     try {
-      console.log(data);
+
       const arr = Array.from(data.avatar)
       const promises = arr.map(file => getBase64(file));
       let photos = await Promise.all(promises);

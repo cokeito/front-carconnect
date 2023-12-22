@@ -47,7 +47,11 @@ export const Product = () => {
     getProduct(id)
   }, [id])
 
-  console.log('is', isLoadingProduct)
+
+  if (product === undefined) {
+    navigate('/dashboard')
+  }
+
   if (isLoadingProduct) {
     return (
       <Loading />

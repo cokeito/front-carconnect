@@ -90,12 +90,11 @@ export const ProductPublish = () => {
 
   const onSubmit = async (data) => {
     try {
+      console.log(data);
 
       const arr = Array.from(data.photos)
       const promises = arr.map(file => getBase64(file));
       data.photos = await Promise.all(promises);
-
-      console.log(data);
 
       const res = await CarApi.post('/items/', data)
 
@@ -113,7 +112,7 @@ export const ProductPublish = () => {
 
   }
 
-  console.log('add:', addDiscount)
+
   return (
 
     <Layout>

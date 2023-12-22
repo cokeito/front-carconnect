@@ -18,7 +18,7 @@ export const Layout = ({ children }) => {
   const navigate = useNavigate()
 
   const handleSearchBar = () => {
-    console.log('search bar')
+
     setIsSearch((isSearch) => !isSearch)
   }
 
