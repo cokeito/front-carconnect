@@ -6,11 +6,51 @@ import { UserContext } from '../contexts/user_provider'
 
 import { UserAvatar } from '../components/UserAvatar'
 import { useMyProducts } from '../hooks/useMyProducts'
+import { FileForm } from '../components/forms/FileForm'
+import { useForm } from 'react-hook-form'
+import { getBase64 } from '../utils/utils'
+import { CarApi } from '../api/CarApi'
+import { motion } from 'framer-motion'
+import toast from 'react-hot-toast'
 
 export const Profile = () => {
-  const { user } = useContext(UserContext)
+  const { user, setUser } = useContext(UserContext)
+
   const { wishlistItems, getWishListItems } = useContext(ProductContext)
   const [myProducts] = useMyProducts()
+
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm()
+
+  const onSubmit = async (data) => {
+    try {
+      console.log(data);
+      const arr = Array.from(data.avatar)
+      const promises = arr.map(file => getBase64(file));
+      let photos = await Promise.all(promises);
+
+      data.avatar = photos[0]
+
+      const res = await CarApi.post('/users/avatar', data)
+
+      if (res.status == 200) {
+        const token = res.data.token
+        localStorage.setItem('token', token)
+
+        const logged_user = res.data.user
+        setUser(logged_user)
+
+        toast.success('Avatar actualizado correctamente')
+      }
+    } catch (error) {
+      toast.error('Error al actualizar avatar')
+    }
+
+  }
 
   useEffect(() => {
     getWishListItems
@@ -19,20 +59,37 @@ export const Profile = () => {
   return (
     <>
       <Layout>
-        <section className="min-h-[200px] overflow-hidden bg-white py-11 mt-10">
+        <section className="min-h-[200px] overflow-hidden bg-white py-3 ">
           <div className="container mx-auto p-10">
             <div className="flex gap-10">
-              <div className="self-start pb-10 max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto bg-white shadow-xl rounded-lg text-gray-900">
-
+              <div className="self-start pb-10 max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto bg-white shadow-xl rounded-lg text-gray-900 flex flex-col items-center">
                 <div className="rounded-t-lg h-48 overflow-hidden">
                   <img
                     className="object-cover object-top w-full"
                     src='/assets/images/profile_banner_car.jpg'
-                    alt='Mountain' />
+                    alt='photo' />
                 </div>
+
                 <div className="mx-auto w-32 h-32 relative -mt-16 border-4 border-white rounded-full overflow-hidden">
                   <UserAvatar user={user} />
                 </div>
+
+
+                <div className="w-8">
+                  <motion.div
+                    className="bg-indigo-800 p-2 rounded-full shadow-lg cursor-pointer text-white relative -mt-5 flex"
+                    onClick={() => document.getElementById('upload_avatar_modal').showModal()}
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-upload" viewBox="0 0 16 16">
+                      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                      <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+                    </svg>
+                  </motion.div>
+                </div>
+
+
                 <div className="text-center mt-2">
                   <h2 className="font-extrabold text-xl text-indigo-800">
                     {user?.name}
@@ -83,6 +140,41 @@ export const Profile = () => {
           </div>
 
         </section>
+        {/* Open the modal using document.getElementById('ID').showModal() method */}
+
+        <dialog id="upload_avatar_modal" className="modal">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg">Subir Avatar</h3>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="mt-10 grid grid-cols-[1fr] gap-5">
+                <div>
+                  <FileForm
+                    label=""
+                    placeholder="Acá expláyate y escribe todo lo que se te ocurra"
+                    id="product_description"
+                    fontSize="text-sm"
+                    name="avatar"
+                    multiple={false}
+                    register={register}
+                  />
+                  {errors.photos && <RequiredValidation />}
+                </div>
+              </div>
+
+              <div className="mt-24 flex justify-end">
+                <button className="bg-yellow-500 text-gray-100 p-4 rounded-lg tracking-wide w-full
+                                font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-900
+                                shadow-lg px-4"
+                >
+                  Subir Avatar
+                </button>
+              </div>
+            </form>
+          </div>
+          <form method="dialog" className="modal-backdrop">
+            <button>close</button>
+          </form>
+        </dialog>
       </Layout >
 
 

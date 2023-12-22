@@ -44,14 +44,14 @@ const Navbar = ({ handleSearchBar }) => {
         </motion.div>
 
         <div className="form-control">
-          <Link to="/publish" className="btn bg-yellow-400 border-none">Publicar Auto</Link>
+          <Link to="/publish" className="btn btn-sm md:btn-md lg:btn-md bg-yellow-400 border-none">Publicar Auto</Link>
         </div>
 
         <div className="form-control">
-          <Link to="/dashboard" className="btn bg-yellow-400 border-none">MarketPlace</Link>
+          <Link to="/dashboard" className="btn btn-sm md:btn-md lg:btn-md bg-yellow-400 border-none">MarketPlace</Link>
         </div>
 
-        <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Favoritos</label>
+        <label htmlFor="my-drawer-4" className="drawer-button btn btn-sm md:btn-md lg:btn-md btn-primary">Favoritos</label>
 
         <div className="dropdown dropdown-end">
 
@@ -63,11 +63,20 @@ const Navbar = ({ handleSearchBar }) => {
 
           <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
             <li>
-              <Link to="/profile" className="justify-between">
-                Perfil
+              <Link to="/profile" className="">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                  </svg>
+                </span>Mi Perfil
               </Link>
             </li>
-            <li><a onClick={logout}>Cerrar Sesión</a></li>
+            <li><a onClick={logout}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8.538 1.02a.5.5 0 1 0-.076.998 6 6 0 1 1-6.445 6.444.5.5 0 0 0-.997.076A7 7 0 1 0 8.538 1.02Z" />
+                <path d="M7.096 7.828a.5.5 0 0 0 .707-.707L2.707 2.025h2.768a.5.5 0 1 0 0-1H1.5a.5.5 0 0 0-.5.5V5.5a.5.5 0 0 0 1 0V2.732z" />
+              </svg>Cerrar Sesión</a></li>
           </ul>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import { IconHeart } from './IconHeart'
 import { SaleTag } from './SaleTag'
 import { BadgeProductType } from './BadgeProductType'
+import { BadgeCategory } from './BadgeCategory'
 
 export const Item = ({ product }) => {
   //console.log('product: ', product.photos)
@@ -61,7 +62,7 @@ export const Item = ({ product }) => {
           </div>
 
           <div className="flex-column justify-between">
-            <div className="badge rounded-lg bg-indigo-800 text-white text-xs p-3 border-none">{product.category_name}</div>
+            <BadgeCategory product={product} />
             <BadgeProductType item_type={product.item_type} />
 
           </div>

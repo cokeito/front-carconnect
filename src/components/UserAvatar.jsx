@@ -1,15 +1,16 @@
 import React from 'react'
+import { API_URL } from '../api/CarApi'
 
-export const UserAvatar = (user) => {
+export const UserAvatar = ({ user }) => {
   return (
     <>
       {
-        user?.avatar
+        user?.avatar != null
           ?
           (
             <img
               className="object-cover object-center h-32"
-              src={user?.avatar}
+              src={`${API_URL}${user?.avatar}`}
               alt={user?.name}
             />
           )

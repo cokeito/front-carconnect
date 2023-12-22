@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 
 import { Layout } from '../layouts/Layout'
 import { Title } from '../components/Title'
@@ -14,6 +14,7 @@ import { CarApi } from '../api/CarApi'
 import { ProductContext } from '../contexts/product_provider'
 import { useNavigate } from 'react-router-dom'
 import { RequiredValidation } from '../components/forms/RequiredValidation'
+import { CurrencyForm } from '../components/forms/CurrencyForm'
 
 
 export const ProductPublish = () => {
@@ -30,6 +31,7 @@ export const ProductPublish = () => {
     });
   }
 
+  const [addDiscount, setAddDiscount] = useState(false)
 
   const {
     register,
@@ -111,10 +113,11 @@ export const ProductPublish = () => {
 
   }
 
+  console.log('add:', addDiscount)
   return (
 
     <Layout>
-      <section className="min-h-[200px] overflow-hidden bg-white py-11 font-poppins mt-10">
+      <section className="min-h-[200px] overflow-hidden bg-white py-3 font-poppins">
         <div className="container mx-auto mt-10 px-10">
           <Title title="Publica tu vehículo" />
           <form onSubmit={handleSubmit(onSubmit)}>
@@ -158,8 +161,9 @@ export const ProductPublish = () => {
                 />
                 {errors.year && <RequiredValidation />}
               </div>
+
               <div>
-                <InputForm
+                <CurrencyForm
                   label="Precio"
                   placeholder="Ingresa el precio"
                   type="text"
@@ -210,20 +214,27 @@ export const ProductPublish = () => {
                   options={isDiscount}
                   name="is_discount"
                   register={register}
+                  setAddDiscount={setAddDiscount}
+                  watch={watch('is_discount')}
                 />
               </div>
-              <div>
-                <InputForm
-                  label="Precio (Descuento)"
-                  placeholder="Ingresa el precio con descuento"
-                  type="text"
-                  id="product_discount_price"
-                  fontSize="text-sm"
-                  name="discount_price"
-                  register={register}
-                />
-                {errors.discount_price && <RequiredValidation />}
-              </div>
+
+              {addDiscount && (
+                <div>
+                  <CurrencyForm
+                    label="Precio"
+                    placeholder="Ingresa el precio"
+                    type="text"
+                    id="product_price"
+                    fontSize="text-sm"
+                    name="discount_price"
+                    required={false}
+                    register={register}
+                  />
+                  {errors.discount_price && <RequiredValidation />}
+                </div>
+              )}
+
 
             </div>
 

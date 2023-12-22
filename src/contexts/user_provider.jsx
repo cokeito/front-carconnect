@@ -1,13 +1,9 @@
 import { createContext, useEffect, useState } from "react";
 import { jwtDecode } from 'jwt-decode';
 
-import { checkToken } from "../api/CarApi";
-
 export const UserContext = createContext();
 
-
 const UserProvider = ({ children }) => {
-
 
   const token = localStorage.getItem('token')
 

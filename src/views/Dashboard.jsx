@@ -17,9 +17,7 @@ export const Dashboard = () => {
         <Hero />
 
         <section>
-          <div className="container mx-auto flex gap-5 mt-10 px-10">
 
-          </div >
           <div className="container mx-auto mt-10 px-10">
             <Cat />
           </div >

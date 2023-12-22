@@ -6,7 +6,7 @@ const flickityOptions = {
   contain: true,
   cellAlign: 'left',
   prevNextButtons: false,
-  pageDots: false
+  pageDots: false,
 }
 
 const Hero = () => {

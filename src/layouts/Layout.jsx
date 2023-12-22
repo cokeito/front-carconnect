@@ -31,7 +31,7 @@ export const Layout = ({ children }) => {
     <>
 
       <WishlistDrawer />
-      <div id="car_page" className="relative">
+      <div id="car_page" className="relative h-screen">
         <div className="sticky top-0 flex flex-col w-full z-50">
           <AnimatePresence>
             {isSearch &&
@@ -40,7 +40,6 @@ export const Layout = ({ children }) => {
           </AnimatePresence>
           <Navbar setIsSearch={setIsSearch} handleSearchBar={handleSearchBar} />
         </div>
-
 
         {children}
         <Footer />

@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-export const SelectForm = ({ name, label, placeholder, register, fontSize = 'text-lg', options = [], required = true }) => {
+export const SelectForm = ({ name, label, placeholder, register, fontSize = 'text-lg', options = [], required = true, setAddDiscount = false, watch = false }) => {
+
+  useEffect(() => {
+
+    if (setAddDiscount instanceof Function) {
+      typeof watch == 'string' && watch == 'true' ? setAddDiscount(true) : setAddDiscount(false)
+    }
+  }, [watch])
+
   return (
     <>
       <div className={fontSize == 'text-lg' ? 'mt-8' : 'mt-4'} >

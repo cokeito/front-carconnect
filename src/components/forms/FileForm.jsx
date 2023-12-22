@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const FileForm = ({ label, placeholder, name, register, required = true }) => {
+export const FileForm = ({ label, placeholder, name, register, required = true, multiple = true }) => {
 
   return (
     <div className={'mt-2 w-full'} >
@@ -8,7 +8,7 @@ export const FileForm = ({ label, placeholder, name, register, required = true }
       <input
         type="file"
         className="file-input file-input-bordered file-input-primary w-full text-sm"
-        multiple
+        multiple={multiple}
         accept="image/*"
         placeholder={placeholder}
         {...register(name, { required: required })}

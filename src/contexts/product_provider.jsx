@@ -15,6 +15,8 @@ const ProductProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([])
   const [product, setProduct] = useState()
 
+  const [isLoadingProduct, setIsLoadingProduct] = useState(false)
+
   const [wishlistItems, setWishlistItems] = useState([])
 
 
@@ -46,6 +48,7 @@ const ProductProvider = ({ children }) => {
 
   const getProducts = async () => {
     try {
+
       const res = await CarApi.get('/items')
       if (res.status == 200) {
         setProducts(res.data)
@@ -69,9 +72,11 @@ const ProductProvider = ({ children }) => {
 
   const getProduct = async (id) => {
     try {
+      setIsLoadingProduct(true)
       const res = await CarApi.get(`/items/${id}`)
       if (res.status == 200) {
         setProduct(res.data)
+        setIsLoadingProduct(false)
       }
     } catch (error) {
       console.log(error)
@@ -88,6 +93,7 @@ const ProductProvider = ({ children }) => {
 
 
   const state = {
+    isLoadingProduct,
     products,
     formatter,
     itemCategories,
