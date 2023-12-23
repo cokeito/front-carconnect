@@ -61,7 +61,7 @@ export const Register = () => {
                   register={register}
                   name="name"
                 />
-                {errors.name && <RequiredValidation />}
+                {errors.name && <RequiredValidation msg={errors.name.message} />}
 
                 <InputForm
                   label="Correo Electrónico"
@@ -71,8 +71,12 @@ export const Register = () => {
                   fontSize='text-sm'
                   register={register}
                   name="email"
+                  pattern={{
+                    value: /\S+@\S+\.\S+/,
+                    message: "Correo electrónico inválido",
+                  }}
                 />
-                {errors.email && <RequiredValidation />}
+                {errors.email && <RequiredValidation msg={errors.email.message} />}
 
                 <InputForm
                   label="Password"
@@ -83,6 +87,7 @@ export const Register = () => {
                   register={register}
                   name="password"
                 />
+                {errors.password && <RequiredValidation msg={errors.password.message} />}
 
                 <InputForm
                   label="Repetir Contraseña"
@@ -92,7 +97,17 @@ export const Register = () => {
                   fontSize="text-sm"
                   register={register}
                   name="password_confirm"
+                  validate={
+                    {
+                      matchesPreviousPassword: (value) => {
+                        const { password } = watch();
+                        console.log(password, value)
+                        return password === value || "Las contraseñas no coinciden";
+                      },
+                    }
+                  }
                 />
+                {errors.password_confirm && <RequiredValidation msg={errors.password_confirm.message} />}
 
                 <InputForm
                   label="Teléfono"
@@ -103,7 +118,7 @@ export const Register = () => {
                   name="phone"
                   register={register}
                 />
-                {errors.phone && <RequiredValidation />}
+                {errors.phone && <RequiredValidation msg={errors.phone.message} />}
 
                 <div className="mt-24">
                   <button className=" bg-yellow-400 text-gray-100 p-4 w-full rounded-full tracking-wide
@@ -115,7 +130,7 @@ export const Register = () => {
               </form>
 
               <div className="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
-                Ya tengo cuenta !
+                Ya tengo cuenta
                 <Link to="/login" className="ms-2 cursor-pointer text-indigo-600 hover:text-indigo-900">Ingresar</Link>
               </div>
 

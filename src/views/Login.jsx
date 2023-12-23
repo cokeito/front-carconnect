@@ -49,6 +49,8 @@ export const Login = () => {
 
   }
 
+
+
   return (
     <>
       <div className="lg:flex">
@@ -71,8 +73,13 @@ export const Login = () => {
                   fontSize='text-sm'
                   register={register}
                   name="email"
+                  pattern={{
+                    value: /\S+@\S+\.\S+/,
+                    message: "Correo electrónico inválido",
+                  }}
                 />
-                {errors.email && <RequiredValidation />}
+
+                {errors.email && <RequiredValidation msg={errors.email.message} />}
 
                 <InputForm
                   label="Password"
@@ -83,7 +90,7 @@ export const Login = () => {
                   register={register}
                   name="password"
                 />
-                {errors.password && <RequiredValidation />}
+                {errors.password && <RequiredValidation msg={errors.password.message} />}
 
                 <div className="mt-24">
                   <button className="bg-yellow-400 text-gray-100 p-4 w-full rounded-full tracking-wide

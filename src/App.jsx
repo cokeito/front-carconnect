@@ -16,7 +16,6 @@ import { Toaster } from 'react-hot-toast'
 function App() {
 
   return (
-
     <BrowserRouter>
       <Toaster />
       <div className="font-sans">
@@ -25,8 +24,7 @@ function App() {
           <Route path='/register' element={<Register />} />
 
           <Route path='/login' element={<Login />} />
-          <Route path='/dashboard' element={<PrivateRoute> <Dashboard /> </PrivateRoute>}
-          />
+          <Route path='/dashboard' element={<PrivateRoute> <Dashboard /> </PrivateRoute>} />
           <Route path='/products/:id' element={<PrivateRoute><Product /></PrivateRoute>} />
           <Route path='/products/' element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path='/profile/' element={<PrivateRoute><Profile /></PrivateRoute>} />
@@ -34,7 +32,6 @@ function App() {
         </Routes>
       </div>
       <ScrollToTop />
-
     </BrowserRouter>
 
   )

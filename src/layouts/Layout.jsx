@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useEffect, useContext, useRef } from 'react'
 import Navbar from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { WishlistDrawer } from '../components/WishlistDrawer'

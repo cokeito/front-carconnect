@@ -18,7 +18,27 @@ const ProductProvider = ({ children }) => {
   const [isLoadingProduct, setIsLoadingProduct] = useState(false)
 
   const [wishlistItems, setWishlistItems] = useState([])
+  const [searchIds, setSearchIds] = useState([])
 
+
+  const getProductsFiltered = async (searchIds) => {
+    try {
+      console.log('filtering')
+
+      let params = {
+        cat_ids: searchIds
+      }
+
+      const res = await CarApi.post('/items/filter', params)
+      if (res.status == 200) {
+        setProducts(res.data)
+      }
+
+    } catch (error) {
+      console.log(error);
+      console.log(error.code);
+    }
+  }
 
   const getWishListItems = async () => {
     try {
@@ -37,7 +57,6 @@ const ProductProvider = ({ children }) => {
     try {
       const res = await CarApi.get('/wishlist')
       if (res.status == 200) {
-
         setWishlist(res.data)
       }
     } catch (error) {
@@ -99,12 +118,22 @@ const ProductProvider = ({ children }) => {
     wishlist,
     product,
     wishlistItems,
+    searchIds,
+    setSearchIds,
     getWishListItems,
     getProduct,
     getWishlist,
     getProducts,
+    getProductsFiltered
   }
 
+  useEffect(() => {
+    if (searchIds.length > 0) {
+      getProductsFiltered(searchIds)
+    } else {
+      getProducts()
+    }
+  }, [searchIds])
 
   useEffect(() => {
     if (user) {

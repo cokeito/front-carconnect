@@ -1,18 +1,23 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Flickity from 'react-flickity-component'
 import { CatItem } from './CatItem'
 import { Title } from './Title'
 import { ProductContext } from '../contexts/product_provider'
 
+
 const flickityOptions = {
-  cellAlign: 'left',
-  contain: false,
+  cellAlign: 0.001,
+  contain: true,
   prevNextButtons: true,
   pageDots: false,
-  lazyLoad: true
+  lazyLoad: false,
+  autoPlay: true,
+  wrapAround: true,
+  draggable: false
 }
 
 export const Cat = () => {
+
 
   const { itemCategories } = useContext(ProductContext)
 
@@ -29,20 +34,8 @@ export const Cat = () => {
           static // default false
         >
           {itemCategories.map((category, index) => (
-            <div className="w-72 h-48  px-2" key={index}>
-              <div className="absolute bottom-5 left-5 z-20 uppercase">
-                <span className="bg-indigo-950 text-white inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-gray-500/10">
-                  {category.name}
-                </span>
-              </div>
-
-              <img src={`/assets/images/categories/${category.photo}`} alt={category.name} className="rounded-lg h-full w-full object-cover " />
-            </div>
+            <CatItem key={index} category={category} />
           ))}
-
-
-
-
         </Flickity >
       </div >
     </>

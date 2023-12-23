@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
-export const RequiredValidation = () => {
+export const RequiredValidation = ({ msg }) => {
   return (
     <motion.span
       className="text-alert-required"
@@ -9,7 +9,7 @@ export const RequiredValidation = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
     >
-      * Este campo es obligatorio
+      {msg}
     </motion.span>
   )
 }

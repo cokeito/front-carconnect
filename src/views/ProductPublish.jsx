@@ -103,7 +103,6 @@ export const ProductPublish = () => {
         //update get_products_state
         getProducts()
         navigate(`/products/${res.data.id}`, { state: { message: res.data.message } })
-
       }
     } catch (error) {
 
@@ -112,9 +111,7 @@ export const ProductPublish = () => {
 
   }
 
-
   return (
-
     <Layout>
       <section className="min-h-[200px] overflow-hidden bg-white py-3 font-poppins">
         <div className="container mx-auto mt-10 px-10">
@@ -131,7 +128,7 @@ export const ProductPublish = () => {
                   name="name"
                   register={register}
                 />
-                {errors.name && <RequiredValidation />}
+                {errors.name && <RequiredValidation msg={errors.name.message} />}
               </div>
 
               <div>
@@ -144,7 +141,7 @@ export const ProductPublish = () => {
                   name="excerpt"
                   register={register}
                 />
-                {errors.excerpt && <RequiredValidation />}
+                {errors.excerpt && <RequiredValidation msg={errors.excerpt.message} />}
               </div>
 
               <div>
@@ -158,7 +155,7 @@ export const ProductPublish = () => {
                   name="year"
                   register={register}
                 />
-                {errors.year && <RequiredValidation />}
+                {errors.year && <RequiredValidation msg={errors.year.message} />}
               </div>
 
               <div>
@@ -171,7 +168,7 @@ export const ProductPublish = () => {
                   name="price"
                   register={register}
                 />
-                {errors.price && <RequiredValidation />}
+                {errors.price && <RequiredValidation msg={errors.price.message} />}
               </div>
 
             </div>
@@ -230,7 +227,7 @@ export const ProductPublish = () => {
                     required={false}
                     register={register}
                   />
-                  {errors.discount_price && <RequiredValidation />}
+                  {errors.discount_price && <RequiredValidation msg={errors.discount_price.message} />}
                 </div>
               )}
 
@@ -248,7 +245,7 @@ export const ProductPublish = () => {
                   name="description"
                   register={register}
                 />
-                {errors.description && <RequiredValidation />}
+                {errors.description && <RequiredValidation msg={errors.description.message} />}
               </div>
 
 
@@ -264,7 +261,7 @@ export const ProductPublish = () => {
                   name="photos[]"
                   register={register}
                 />
-                {errors.photos && <RequiredValidation />}
+                {errors.photos && <RequiredValidation msg={errors.photos.message} />}
               </div>
             </div>
 
